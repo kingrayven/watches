@@ -177,7 +177,7 @@ const ProductTable = ({
                     <strong>{product.name}</strong>
                   </td>
                   <td>{product.category}</td>
-                  <td>${product.price.toFixed(2)}</td>
+                  <td>₱{product.price.toFixed(2)}</td>
                   <td>
                     <span className={getStatusClass(product.status)}>
                       {product.status}
